@@ -86,6 +86,9 @@ p {
     background-color: #2589bd;
 }
 
+/*
+To make the code much more easier to read, it can be condensed down from three pieces of code into one:
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,6 +103,15 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* 
+Can condense down from:
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -115,6 +127,15 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+All these images share the same property, thus it can be condensed into a singular line of code from:
 
 .benefit-lead img {
     display: block;
@@ -133,8 +154,15 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
-.search-engine-optimization {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +171,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +180,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,18 +189,31 @@ p {
     color: #ffffff;
 }
 
+/* 
+Can condense into a singular line of code from: 
 .search-engine-optimization img {
-    max-height: 200px;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .social-media-marketing img {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
+    font-size: 36px;
 }
 
+/* 
+Can condense down this code into one line:
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -184,6 +225,12 @@ p {
 }
 
 .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
