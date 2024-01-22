@@ -162,7 +162,7 @@ All these images share the same property, thus it can be condensed into a singul
     max-width: 150px;
 }
 
-#search-engine-optimization {
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -171,7 +171,7 @@ All these images share the same property, thus it can be condensed into a singul
     color: #ffffff;
 }
 
-#online-reputation-management {
+.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -180,7 +180,7 @@ All these images share the same property, thus it can be condensed into a singul
     color: #ffffff;
 }
 
-#social-media-marketing {
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
